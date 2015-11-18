@@ -1,7 +1,6 @@
 //In this file we are declaring all the int types we need for Q OS
-
-#ifndef TYPES_H
-#define TYPES_H
+#ifndef INTTYPEDEFS_H
+#define INTTYPEDEFS_H
 
 typedef signed char int8;
 typedef unsigned char uint8;
@@ -16,6 +15,12 @@ typedef signed long long int64;
 typedef unsigned long long uint64;
 
 typedef char* string; 
+
+//define boolean type and boolean literals
+typedef char bool;
+
+#define true (1 == 1)
+#define false (1 == 0)
 
 #endif
 
